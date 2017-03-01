@@ -11,7 +11,7 @@ function getJoke() {
     });
     xhr.send();
 }
-paragraph.innerHTML = getJoke(); // zadanie dodatkowe :)
+pargetJoke(); // zadanie dodatkowe 
 button.addEventListener("click", function() {
     getJoke();  
 });
