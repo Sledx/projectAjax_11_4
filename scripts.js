@@ -11,7 +11,7 @@ function getJoke() {
     });
     xhr.send();
 }
-pargetJoke(); // zadanie dodatkowe 
+getJoke(); // zadanie dodatkowe 
 button.addEventListener("click", function() {
     getJoke();  
 });
